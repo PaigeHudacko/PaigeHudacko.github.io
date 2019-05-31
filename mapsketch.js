@@ -19,6 +19,7 @@ var isMountain = []
 
 function setup() {
     createCanvas(700, 700);
+    island = Math.random() >= 0.5;
     //to start, we randomly assign each cell as living or dead (boolean true or false)
     for(var i = 0;i<arraySize;i++){
         var alive = (Math.random() < chanceOfLife)
