@@ -7,11 +7,7 @@ function setup() {
     o = 255
 }
 function keyPressed() {
-        if(keyCode === 32){
-         noStroke();
-        fill(r, g ,b, o);
-    ellipse(mouseX, mouseY, s)
-    }else if (keyCode === 49 ) {
+ if (keyCode === 49 ) {
         s = 1;
         fill(255);
         ellipse(10, 10, 60, 60);
@@ -77,6 +73,11 @@ function keyPressed() {
         o+=15
     } else if(keyCode === 68 && o>0){
         o-=15
+    }
+    if(keyCode === 32){
+         noStroke();
+        fill(r, g ,b, o);
+    ellipse(mouseX, mouseY, s)
     }
 }
 function draw() {
