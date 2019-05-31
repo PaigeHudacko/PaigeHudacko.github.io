@@ -1,7 +1,6 @@
 // Randomly generates a map based on variables below
 
 // true/false
-
 var forests = true
 var mountains = true
 
