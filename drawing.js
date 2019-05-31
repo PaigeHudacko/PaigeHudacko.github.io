@@ -73,12 +73,7 @@ function keyPressed() {
         o+=15
     } else if(keyCode === 68 && o>0){
         o-=15
-    } else if(keyCode === 32){
-         noStroke();
-        fill(r, g ,b, o);
-    ellipse(mouseX, mouseY, s)
-    }
-
+    } 
 }
 function draw() {
 
