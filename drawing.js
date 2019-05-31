@@ -93,3 +93,10 @@ function draw() {
         }
     }
 }
+function keyPressed(){
+    if(keyCode === 32){
+         noStroke();
+        fill(r, g ,b, o);
+    ellipse(mouseX, mouseY, s)
+    }
+}
