@@ -27,7 +27,7 @@ var t = function( p ) {
         p.rect(0, 0, 100, p.height)
         p.fill(1)
         p.ellipse(x,y,50,50);
-        p.ellipse(mouseX, mouseY+200, 10)
+        p.ellipse(p.mouseX, p.mouseY, 10)
 
     };
 };
