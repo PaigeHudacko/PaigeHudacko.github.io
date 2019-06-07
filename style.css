@@ -5,7 +5,7 @@ a{
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 0;
     overflow: hidden;
     background-color: #156393;
 }
